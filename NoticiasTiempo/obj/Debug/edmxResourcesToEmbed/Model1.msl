@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NEWSTIMESModelStoreContainer" CdmEntityContainer="NEWSTIMESEntities">
+    <EntitySetMapping Name="Ciudades">
+      <EntityTypeMapping TypeName="NEWSTIMESModel.Ciudades">
+        <MappingFragment StoreEntitySet="Ciudades">
+          <ScalarProperty Name="IDCiudad" ColumnName="IDCiudad" />
+          <ScalarProperty Name="CiudadNombre" ColumnName="CiudadNombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Historial">
+      <EntityTypeMapping TypeName="NEWSTIMESModel.Historial">
+        <MappingFragment StoreEntitySet="Historial">
+          <ScalarProperty Name="IDHistorial" ColumnName="IDHistorial" />
+          <ScalarProperty Name="nombciudad" ColumnName="nombciudad" />
+          <ScalarProperty Name="info" ColumnName="info" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Noticia">
+      <EntityTypeMapping TypeName="NEWSTIMESModel.Noticia">
+        <MappingFragment StoreEntitySet="Noticia">
+          <ScalarProperty Name="IDNoticia" ColumnName="IDNoticia" />
+          <ScalarProperty Name="Autor" ColumnName="Autor" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="UrlTolImage" ColumnName="UrlTolImage" />
+          <ScalarProperty Name="PublishedAt" ColumnName="PublishedAt" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="IDCiudad" ColumnName="IDCiudad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

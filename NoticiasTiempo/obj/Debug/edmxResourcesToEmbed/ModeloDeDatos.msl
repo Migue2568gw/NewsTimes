@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NEWSTIMESModelStoreContainer" CdmEntityContainer="NoticiasBDEntities">
+    <EntitySetMapping Name="Historial">
+      <EntityTypeMapping TypeName="NEWSTIMESModel.Historial">
+        <MappingFragment StoreEntitySet="Historial">
+          <ScalarProperty Name="IDHistorial" ColumnName="IDHistorial" />
+          <ScalarProperty Name="nombciudad" ColumnName="nombciudad" />
+          <ScalarProperty Name="info" ColumnName="info" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
